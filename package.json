@@ -1,0 +1,30 @@
+{
+  "name": "es6-shorthands",
+  "description": "An ES6 and CommonJS cross-compatible transpiler",
+  "version": "0.0.1",
+  "author": "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de)",
+  "license": "MIT",
+  "repository": "polyfills/es6-shorthands",
+  "dependencies": {
+    "recast": "0"
+  },
+  "devDependencies": {
+    "esprima": "git://github.com/esnext/esprima#harmony-esnext",
+    "mocha": "1",
+    "istanbul": "0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail test/index.js",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/index.js",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/index.js"
+  },
+  "keywords": [
+    "es6",
+    "transpiler",
+    "shorthands"
+  ],
+  "main": "lib",
+  "files": [
+    "lib"
+  ]
+}
