@@ -1,7 +1,7 @@
 {
   "name": "es6-shorthands",
   "description": "An ES6 and CommonJS cross-compatible transpiler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Arpad Borsos <arpad.borsos@googlemail.com> (http://swatinem.de)",
   "license": "MIT",
   "repository": "polyfills/es6-shorthands",
